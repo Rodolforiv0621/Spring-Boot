@@ -1,7 +1,5 @@
 package com.example.Tutorial.auth;
 
-import java.util.Optional;
-
 import com.example.Tutorial.config.JwtService;
 import com.example.Tutorial.student.Student;
 import com.example.Tutorial.student.StudentRepository;
@@ -11,8 +9,6 @@ import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
-
-import io.jsonwebtoken.Jwts;
 
 @Service
 public class AuthenticationService {
